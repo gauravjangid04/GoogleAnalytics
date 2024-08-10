@@ -12,11 +12,11 @@ Google tag manager (GTM) is a free tag management platform that enables marketer
 ## SETUP
 Navigate to [Tag Manager](https://tagmanager.google.com/) and create an account.
 
-![Container](image-1.png)
+![Container](images/image-1.png)
 
 After creating the account go to your workspace and click on the container ID to get the code snippet. This snippet is used to install tag manager on the storefront.
 
-![Container](image-2.png)
+![Container](images/image-2.png)
 
 Copy the code below and paste it onto every page of your website.
 Paste this code as high in the head element of the page as possible:
@@ -80,27 +80,27 @@ Compile the client js and upload the cartridge successfully.
 
 For verifying that the event gets registered, go to the GTM workspace and click on preview
 
-![Container](image-3.png)
+![Container](images/image-3.png)
 
 Connect tag assistant to your site by entering the site url
 
-![Container](image-4.png)
+![Container](images/image-4.png)
 
 A popup with success will show on storefront
 
-![Container](image-5.png)
+![Container](images/image-5.png)
 
 Go to PDP and click on add to cart
 
-![Container](image-6.png)
+![Container](images/image-6.png)
 
 And in the preview mode, it can be seen that the event with name add_to_cart_pdp has got fired 💥
 
-![Container](image-7.png)
+![Container](images/image-7.png)
 
 Also we can verify the event on console
 
-![Container](image-8.png)
+![Container](images/image-8.png)
 
 Similarly we can create other events for all the storefront pages.
 
